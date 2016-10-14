@@ -11,3 +11,10 @@ class def_repository(db.Model):
 	name = db.Column('name' , db.String)
 	description = db.Column('description', db.String)
 	keyword = db.Column('keyword',db.String)
+
+	def __init__(self,id,name,description,keyword):
+		self.id=id
+		self.name=name
+		self.description=description
+		self.keyword=keyword
+		
