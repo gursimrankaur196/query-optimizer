@@ -1,0 +1,30 @@
+.datepicker{
+	color: black;
+	background: #ffcdd2;
+	width: 100px;
+	font-size: 150%
+	font:'Bitter';
+	font-family: 'Coustard', serif;
+	opacity: 0.5;
+	border: 5px solid black;
+
+}
+.datepicker,
+.table-condensed {
+  width: 500px;
+  height:300px;
+  opacity: 1;
+
+}
+.bootstrap-datetimepicker-widget .timepicker-hour,
+    .bootstrap-datetimepicker-widget .timepicker-minute,
+    .bootstrap-datetimepicker-widget .timepicker-second {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .bootstrap-datetimepicker-widget table[data-hour-format="12"] .separator {
+        width: 4px;
+        padding: 0;
+        margin: 0;
+    }
